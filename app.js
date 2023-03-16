@@ -20,7 +20,7 @@ app.use(express.json())
 app.use(express.urlencoded({type:'application/x-www-form-urlencoded'}))
 const PORT = process.env.PORT || 5000
 //挂载路由
-app.use('/api',router)
+app.use('/juejinapi',router)
 
 //统一错误处理
 app.use(errorHandler())
